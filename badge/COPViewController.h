@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface COPViewController : UIViewController
+@interface COPViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate>
 
 @end
